@@ -5,7 +5,7 @@
 
 [Salesforce_Reporting](https://pypi.org/project/salesforce-reporting)
 
-	
+
 `pip install salesforce-reporting`
 
 
@@ -35,11 +35,11 @@ out_report_path = r'\\Torfpsp01102\xax\Dept\Xaxis\Insights & Analytics\Saleforce
 local_default_path = r'C:\Temp'
 
 #FTP
-ftp_server = 'analytics.xaxis.com'
-ftp_user = 'ftp_analyticscanada'
-ftp_pw = 'Ca125XaX'
-ftp_path = r'Spotlight/Salesforce_Sync'
-ftp_report_name = 'Salesforce Placement IDs Check Sync'
+ftp_server = creds
+ftp_user = creds
+ftp_pw = creds
+ftp_path = r'dir'
+ftp_report_name = 'title'
 
 ~~~
 
